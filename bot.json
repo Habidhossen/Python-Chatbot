@@ -1,0 +1,80 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": [
+      "hello",
+      "hi",
+      "hey",
+      "hey there",
+      "good morning",
+      "good afternoon"
+    ],
+    "bot_response": "Hey there!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": [
+      "see you",
+      "goodbye",
+      "bye",
+      "take care",
+      "see you soon",
+      "bye for now"
+    ],
+    "bot_response": "See you later!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "bot_response": "The pleasure is all mine!",
+    "required_words": ["nice", "meet", "you"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["thank you", "thanks a lot", "thanks"],
+    "bot_response": "You're welcome! I'm here to help.",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["what's up", "how are you doing", "how's it going"],
+    "bot_response": "Hello! How can I assist you today?",
+    "required_words": []
+  },
+  {
+    "response_type": "question",
+    "user_input": ["what's your name", "who are you", "tell me about yourself"],
+    "bot_response": "I'm a chatbot designed to assist you. How can I help you today?",
+    "required_words": []
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "to", "learn", "code", "coding", "apps"],
+    "bot_response": "Start by typing: 'How to learn coding' on Google.",
+    "required_words": ["learn", "code"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["what is machine learning", "explain machine learning"],
+    "bot_response": "Machine learning is a branch of artificial intelligence that focuses on enabling systems to learn and improve from experience.",
+    "required_words": ["what", "machine learning"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "are", "you"],
+    "bot_response": "I'm great! Thanks for asking.",
+    "required_words": ["how", "are", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": [
+      "how can I contact support",
+      "where can I get help",
+      "I need assistance"
+    ],
+    "bot_response": "For support and assistance, please contact our customer support team at [contact information]. They will be happy to assist you.",
+    "required_words": ["contact", "support"]
+  }
+]
